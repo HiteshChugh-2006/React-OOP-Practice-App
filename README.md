@@ -1,16 +1,57 @@
-# React + Vite
+<div align="center">
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🏗️ React OOP Practice App
 
-Currently, two official plugins are available:
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![OOP](https://img.shields.io/badge/OOP-Class%20Based-orange?style=for-the-badge)]()
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+> **Applying Object-Oriented Programming principles inside a React app — ES6 classes, inheritance, and encapsulation integrated with React hooks.**
 
-## React Compiler
+</div>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ OOP Concepts Applied
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🏛️ **ES6 Classes** — Encapsulating logic in class instances
+- 🔗 **Inheritance** — Extending base classes for specialised behaviour
+- 🔒 **Encapsulation** — Private fields and methods
+- 🔄 **Integration with React** — Using class instances inside functional components via `useRef` / `useMemo`
+
+## 🛠️ Tech Stack
+
+| Technology | Purpose |
+|-----------|---------|
+| React 18 | UI layer |
+| Vite | Dev tooling |
+| JavaScript ES6+ Classes | OOP patterns |
+
+## 🚀 Getting Started
+
+```bash
+git clone https://github.com/HiteshChugh-2006/React-OOP-Practice-App.git
+cd React-OOP-Practice-App
+npm install
+npm run dev
+```
+
+## 📁 Project Structure
+
+```
+src/
+├── classes/       # ES6 class definitions (OOP layer)
+├── components/    # React components
+├── App.jsx        # Root component
+└── main.jsx       # Entry point
+```
+
+## 💡 Key Takeaway
+
+> OOP and React are not mutually exclusive. Classes are excellent for modelling domain entities while React hooks manage UI state.
+
+---
+
+<div align="center">
+Made with ❤️ by <a href="https://github.com/HiteshChugh-2006">Hitesh Chugh</a>
+</div>
